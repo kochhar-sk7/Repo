@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Finance &#8211; Career Accelator Blogs</title>
+	<atom:link href="http://localhost/wordpress1/career/finance/feed/?simply_static_page=1497" rel="self" type="application/rss+xml" />
+	<link>https://www.badshah.com</link>
+	<description></description>
+	<lastBuildDate>Sat, 30 Mar 2024 13:13:19 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
+	<item>
+		<title>Monte Carlo Simulation Use Case in Valuation</title>
+		<link>https://www.badshah.com/2024/03/30/monte-carlo-simulation-use-case-in-valuation/</link>
+					<comments>https://www.badshah.com/2024/03/30/monte-carlo-simulation-use-case-in-valuation/#respond</comments>
+		
+		<dc:creator><![CDATA[sk]]></dc:creator>
+		<pubDate>Sat, 30 Mar 2024 12:22:26 +0000</pubDate>
+				<category><![CDATA[Career]]></category>
+		<guid isPermaLink="false">https://www.badshah.com/?p=101</guid>
+
+					<description><![CDATA[Assumtions in DCF Model: Problem with the Assumptions: Risk free free Market Risk Premium Beta: Tax Rate: Terminal Growth Rate]]></description>
+										<content:encoded><![CDATA[
+<p><strong>Assumtions in DCF Model:</strong></p>
+
+
+
+<ol>
+<li>Risk Free Rate of 91 days Tbill taken as 6%</li>
+
+
+
+<li>Market Risk Premium 6%</li>
+
+
+
+<li>Beta calculated from regression model = 1.2</li>
+
+
+
+<li>Tax Rate = 30%</li>
+
+
+
+<li>Terminal Growth Rate of Industry = 6% </li>
+</ol>
+
+
+
+<p><strong>Problem with the Assumptions:</strong></p>
+
+
+
+<p><strong>Risk free free</strong> </p>
+
+
+
+<ol>
+<li>Subject to change by monteory policy.</li>
+
+
+
+<li>We are not sure about the direction of change but we are certain basis previous montetoy policies that maximum rate change is 25bps.</li>
+
+
+
+<li>Better Assumtpion:  If current risk free rate of 91 days T Bill is 7% then new rate will be in range 6.75% to 7.25%</li>
+</ol>
+
+
+
+<p><strong>Market Risk Premium</strong></p>
+
+
+
+<ol>
+<li>Indian Markets are volatile and every industry has different risk premiums</li>
+
+
+
+<li>Statisca US Market Risk Premium publication shows that lower range of 5.3% and higher range of 5,7% prevails in the US</li>
+
+
+
+<li>Using Coefficient of Variation of we can derive India Market risk premium using USA Market risk premium</li>
+
+
+
+<li>Better Assumption: Inida Market Risk Premium = USA Market Risk Premium * Coeff of Variation</li>
+</ol>
+
+
+
+<p><strong>Beta:</strong></p>
+
+
+
+<ol>
+<li>Which granularity of data &#8211; Daily/Weekly/Monthly stock data with the Index. Every day prices will change which will impact the regression beta</li>
+
+
+
+<li>Better Assumtption: We can take 95% confidence range from regression results rather than using a point estimate for the beta</li>
+</ol>
+
+
+
+<p><strong>Tax Rate:</strong></p>
+
+
+
+<ol>
+<li>Companies Tax structure is complex and we cannot assume a flat rate of 30%</li>
+
+
+
+<li>Better Assumption: Tax Rate lower limit 26% and higher limit 30%</li>
+</ol>
+
+
+
+<p><strong>Terminal Growth Rate</strong></p>
+
+
+
+<ol>
+<li>We can use industry growth rate as guide for terminal growth rate but company specific growth will be different depending on the buisness life cycle</li>
+
+
+
+<li>Better Assumption: Mean Growth Rate 7% with standard deviation of 1% </li>
+</ol>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.badshah.com/2024/03/30/monte-carlo-simulation-use-case-in-valuation/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Monte Carlo Simulation</title>
+		<link>https://www.badshah.com/2024/03/29/monte-carlo-simulation/</link>
+					<comments>https://www.badshah.com/2024/03/29/monte-carlo-simulation/#respond</comments>
+		
+		<dc:creator><![CDATA[sk]]></dc:creator>
+		<pubDate>Fri, 29 Mar 2024 19:40:27 +0000</pubDate>
+				<category><![CDATA[Career]]></category>
+		<guid isPermaLink="false">https://www.badshah.com/?p=53</guid>
+
+					<description><![CDATA[What is Monte Carlo Simulation? The Monte Carlo simulation is a mathematical technique&#160;used to understand the impact of risk and uncertainty in quantitative analysis and decision-making processes. It&#8217;s named after the famous Monte Carlo Casino in Monaco, known for its games of chance, as the method relies on randomness in sampling. Why is the Monte [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<h4 class="wp-block-heading">What is Monte Carlo Simulation?</h4>
+
+
+
+<p>The Monte Carlo simulation is a mathematical technique&nbsp;used to understand the impact of risk and uncertainty in quantitative analysis and decision-making processes. </p>
+
+
+
+<p>It&#8217;s named after the famous Monte Carlo Casino in Monaco, known for its games of chance, as the method relies on randomness in sampling.</p>
+
+
+
+<h4 class="wp-block-heading">Why is the Monte Carlo simulation important?</h4>
+
+
+
+<p>The Monte Carlo simulation is a steriod for a deterministic model. It incorporates uncertainty or randomness in the input variable. When you use a probabilistic model to simulate an outcome, you will get different results each time. It identifies the sensitivity of output in response to change of input Variables simultaneously</p>
+
+
+
+<h4 class="wp-block-heading">Benefits of Monte Carlo Simulation</h4>
+
+
+
+<p>Monte Carlo simulation offers several benefits across various fields and applications:</p>
+
+
+
+<ol>
+<li><strong>Risk Assessment</strong>: It allows for a comprehensive assessment of risk by considering multiple sources of uncertainty and variability in a system. This enables decision-makers to understand the range of possible outcomes and their associated probabilities.</li>
+
+
+
+<li><strong>Decision Support</strong>: Monte Carlo simulation provides decision support by quantifying uncertainties and assisting in making informed decisions under uncertainty. It helps in identifying optimal strategies or courses of action that account for risk.</li>
+
+
+
+<li><strong>Complex Systems Analysis</strong>: It is effective in analyzing complex systems with numerous interrelated variables and nonlinear relationships. Monte Carlo simulation can capture the complexity of real-world systems and provide insights into their behavior.</li>
+
+
+
+<li><strong>Sensitivity Analysis</strong>: Monte Carlo simulation facilitates sensitivity analysis by examining how changes in input variables affect the outcomes of interest. This helps in identifying the most influential factors and understanding their impact on the results.</li>
+
+
+
+<li><strong>Model Validation</strong>: It helps in validating mathematical models by comparing simulated results with observed data or known outcomes. This allows for the refinement and improvement of models to better represent the underlying system.</li>
+
+
+
+<li><strong>Optimization</strong>: Monte Carlo simulation can be integrated with optimization techniques to find optimal solutions that maximize benefits or minimize costs while considering uncertainty and risk. It helps in identifying robust solutions that perform well across different scenarios.</li>
+
+
+
+<li><strong>Resource Allocation</strong>: It aids in optimizing resource allocation by considering uncertainties in resource availability, demand, and other factors. Monte Carlo simulation helps in determining the most efficient allocation of resources to achieve desired objectives.</li>
+
+
+
+<li><strong>Project Management</strong>: It is valuable in project management for estimating project durations, costs, and resource requirements. Monte Carlo simulation helps in identifying potential project risks and developing contingency plans to mitigate them.</li>
+
+
+
+<li><strong>Financial Modeling</strong>: Monte Carlo simulation is extensively used in finance for pricing derivatives, assessing investment portfolios, and evaluating financial risks. It provides insights into the distribution of financial outcomes and helps in making informed investment decisions.</li>
+</ol>
+
+
+
+<p>Overall, Monte Carlo simulation is a powerful and versatile tool for analyzing uncertainty, making decisions, and improving the robustness of models and systems across various domains.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.badshah.com/2024/03/29/monte-carlo-simulation/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

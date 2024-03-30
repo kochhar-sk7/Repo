@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Mastering Data Visualization: A Comprehensive Guide to Tableau	</title>
+	<atom:link href="http://localhost/wordpress1/2024/03/30/mastering-data-visualization-a-comprehensive-guide-to-tableau/feed/?simply_static_page=1540" rel="self" type="application/rss+xml" />
+	<link>https://www.badshah.com/2024/03/30/mastering-data-visualization-a-comprehensive-guide-to-tableau/</link>
+	<description></description>
+	<lastBuildDate>Sat, 30 Mar 2024 13:24:59 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
+</channel>
+</rss>
